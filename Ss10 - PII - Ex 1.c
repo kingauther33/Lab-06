@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
 
 int main()
@@ -20,7 +12,7 @@ int main()
     {
         for (i=1; i<temp; i++)
             x = x*(temp-i);
-        printf("Giai tri cua %d la: %d! = %d ",temp, temp, x);
+        printf("Giai thua cua %d la: %d! = %d ",temp, temp, x);
     }
     return 0;
 }

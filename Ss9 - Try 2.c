@@ -20,9 +20,9 @@ void main ()
 				tong += i;
 			}	
 		printf("\n====================");
-		printf("\nTong cac so le trong num1 va num2 la: %d", tong);	
+		printf("\nTong cac so le giua num1 va num2 la: %d", tong);	
 	}
-	else if (num1 > num2)
+    else if (num1 > num2)
 	{
 		printf("Cac so le trong num1 va num2 la:\n");
 		for (i= num2+1; i<num1; i+=1)
@@ -32,13 +32,13 @@ void main ()
 				tong += i;
 			}
 		printf("\n====================");	
-		printf("\nTong cac so le trong num1 va num2 la: %d", tong);
+		printf("\nTong cac so le giua num1 va num2 la: %d", tong);
 	}
 	else
 	{
 		printf("Num1 bang Num2, Moi nhap lai\n");
 		printf("======================================\n");
 		goto input;
-	}
+	} 
 //////////////////////////////////////////// 
 }
